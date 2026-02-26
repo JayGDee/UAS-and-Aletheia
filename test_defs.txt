@@ -1,0 +1,2 @@
+
+python stress_testing.py --total 100000 --max-rps 10000 --ramp 0 --ubo-every 1 --workers 4

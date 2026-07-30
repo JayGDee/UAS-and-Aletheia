@@ -1,4 +1,4 @@
-To run for testing: open the Command Prompt and type python demo.py and go through the demo.
+To run for testing: open the Command Prompt and type python demo.py and go through the demo. It a simple demo.
 It will create UBO's (cryptographically sealed decision files created by the UAS) and the Aletheia cryptographically sealed verification files. Both are .json files.
 Tampering of either file will break the seal, showing as "tampered" in the audit dashboard.
 After running the demo, run python audit_dash.py this will create an html dashboard for viewing the paired files for audit. The dashboard will show "PASS" or "FAIL" for each pair, as well as show if the seals are verified or have been tampered with. Good seals show a green check, tampered seals show a red X.

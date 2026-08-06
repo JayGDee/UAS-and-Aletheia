@@ -6,5 +6,5 @@ The dashboard gives an easy, non-technical way for auditors to review decisions 
 If, for curiosity, you want to see the how they stand up to stress testing, you can run the stress test with python stress_testing.py
 Test definitions are in the test_defs.txt file. 
 The test definitions were tailored to max on my system (Intel N95 1.7GHz 4Core, 4Thread 64 bit system with 16GB or RAM). If you have better hardware, feel free to tailor the test definitions to work with your system.
-The aletheia_v2_standalone.py file is the Aletheia Protocol.
+The aletheia_v2.py file is the Aletheia Protocol.
 The uas_v2.py is the UAS.
